@@ -1,0 +1,403 @@
+{
+  "stations": [
+    {
+      "id": "1",
+      "name": "Station 1",
+      "xPct": 64.8,
+      "yPct": 44.8,
+      "image": "station-01.png"
+    },
+    {
+      "id": "2",
+      "name": "Station 2",
+      "xPct": 60.6,
+      "yPct": 44.8,
+      "image": "station-02.png"
+    },
+    {
+      "id": "3",
+      "name": "Station 3",
+      "xPct": 57.8,
+      "yPct": 40.1,
+      "image": "station-03.png"
+    },
+    {
+      "id": "4",
+      "name": "Station 4",
+      "xPct": 55.8,
+      "yPct": 33.4,
+      "image": "station-04.png"
+    },
+    {
+      "id": "5",
+      "name": "Station 5",
+      "xPct": 50.8,
+      "yPct": 38.7,
+      "image": "station-05.png"
+    },
+    {
+      "id": "6",
+      "name": "Station 6",
+      "xPct": 48.0,
+      "yPct": 41.7,
+      "image": "station-06.png"
+    },
+    {
+      "id": "7",
+      "name": "Station 7",
+      "xPct": 42.5,
+      "yPct": 48.3,
+      "image": "station-07.png"
+    },
+    {
+      "id": "8",
+      "name": "Station 8",
+      "xPct": 39.6,
+      "yPct": 45.3,
+      "image": "station-08.png"
+    },
+    {
+      "id": "9",
+      "name": "Station 9",
+      "xPct": 33.9,
+      "yPct": 44.0,
+      "image": "station-09.png"
+    },
+    {
+      "id": "10",
+      "name": "Station 10",
+      "xPct": 34.4,
+      "yPct": 38.0,
+      "image": "station-10.png"
+    },
+    {
+      "id": "11",
+      "name": "Station 11",
+      "xPct": 31.7,
+      "yPct": 34.5,
+      "image": "station-11.png"
+    },
+    {
+      "id": "12",
+      "name": "Station 12",
+      "xPct": 26.3,
+      "yPct": 34.0,
+      "image": "station-12.png"
+    },
+    {
+      "id": "13",
+      "name": "Station 13",
+      "xPct": 20.5,
+      "yPct": 38.8,
+      "image": "station-13.png"
+    },
+    {
+      "id": "14",
+      "name": "Station 14",
+      "xPct": 20.5,
+      "yPct": 54.0,
+      "image": "station-14.png"
+    },
+    {
+      "id": "15",
+      "name": "Station 15",
+      "xPct": 29.2,
+      "yPct": 54.0,
+      "image": "station-15.png"
+    },
+    {
+      "id": "17",
+      "name": "Station 17",
+      "xPct": 44.8,
+      "yPct": 52.2,
+      "image": "station-17.png"
+    },
+    {
+      "id": "18",
+      "name": "Station 18",
+      "xPct": 45.6,
+      "yPct": 59.0,
+      "image": "station-18.png"
+    },
+    {
+      "id": "19",
+      "name": "Station 19",
+      "xPct": 31.5,
+      "yPct": 62.4,
+      "image": "station-19.png"
+    },
+    {
+      "id": "20",
+      "name": "Station 20",
+      "xPct": 23.4,
+      "yPct": 62.5,
+      "image": "station-20.png"
+    },
+    {
+      "id": "21",
+      "name": "Station 21",
+      "xPct": 20.6,
+      "yPct": 62.5,
+      "image": "station-21.png"
+    },
+    {
+      "id": "22",
+      "name": "Station 22",
+      "xPct": 19.0,
+      "yPct": 77.7,
+      "image": "station-22.png"
+    },
+    {
+      "id": "23",
+      "name": "Station 23",
+      "xPct": 39.0,
+      "yPct": 83.0,
+      "image": "station-23.png"
+    },
+    {
+      "id": "24",
+      "name": "Station 24",
+      "xPct": 42.7,
+      "yPct": 77.0,
+      "image": "station-24.png"
+    },
+    {
+      "id": "25",
+      "name": "Station 25",
+      "xPct": 42.0,
+      "yPct": 70.0,
+      "image": "station-25.png"
+    },
+    {
+      "id": "26",
+      "name": "Station 26",
+      "xPct": 48.5,
+      "yPct": 59.1,
+      "image": "station-26.png"
+    },
+    {
+      "id": "27",
+      "name": "Station 27",
+      "xPct": 48.4,
+      "yPct": 63.0,
+      "image": "station-27.png"
+    },
+    {
+      "id": "28",
+      "name": "Station 28",
+      "xPct": 53.2,
+      "yPct": 59.3,
+      "image": "station-28.png"
+    },
+    {
+      "id": "29",
+      "name": "Station 29",
+      "xPct": 53.0,
+      "yPct": 63.3,
+      "image": "station-29.png"
+    },
+    {
+      "id": "30",
+      "name": "Station 30",
+      "xPct": 56.8,
+      "yPct": 63.3,
+      "image": "station-30.png"
+    },
+    {
+      "id": "31",
+      "name": "Station 31",
+      "xPct": 59.8,
+      "yPct": 63.3,
+      "image": "station-31.png"
+    },
+    {
+      "id": "32",
+      "name": "Station 32",
+      "xPct": 62.7,
+      "yPct": 60.2,
+      "image": "station-32.png"
+    },
+    {
+      "id": "32.5",
+      "name": "Station 32.5",
+      "xPct": 59.2,
+      "yPct": 55.0,
+      "image": "station-32-5.png"
+    },
+    {
+      "id": "33",
+      "name": "Station 33",
+      "xPct": 65.0,
+      "yPct": 48.0,
+      "image": "station-33.png"
+    },
+    {
+      "id": "34",
+      "name": "Station 34",
+      "xPct": 67.0,
+      "yPct": 55.5,
+      "image": "station-34.png"
+    },
+    {
+      "id": "35",
+      "name": "Station 35",
+      "xPct": 72.0,
+      "yPct": 56.0,
+      "image": "station-35.png"
+    },
+    {
+      "id": "36",
+      "name": "Station 36",
+      "xPct": 74.6,
+      "yPct": 59.5,
+      "image": "station-36.png"
+    },
+    {
+      "id": "37",
+      "name": "Station 37",
+      "xPct": 77.0,
+      "yPct": 63.0,
+      "image": "station-37.png"
+    },
+    {
+      "id": "38",
+      "name": "Station 38",
+      "xPct": 79.5,
+      "yPct": 66.0,
+      "image": "station-38.png"
+    },
+    {
+      "id": "39",
+      "name": "Station 39",
+      "xPct": 82.0,
+      "yPct": 69.0,
+      "image": "station-39.png"
+    },
+    {
+      "id": "40",
+      "name": "Station 40",
+      "xPct": 82.0,
+      "yPct": 73.6,
+      "image": "station-40.png"
+    },
+    {
+      "id": "41",
+      "name": "Station 41",
+      "xPct": 86.0,
+      "yPct": 69.0,
+      "image": "station-41.png"
+    },
+    {
+      "id": "42",
+      "name": "Station 42",
+      "xPct": 87.0,
+      "yPct": 63.0,
+      "image": "station-42.png"
+    },
+    {
+      "id": "43",
+      "name": "Station 43",
+      "xPct": 91.4,
+      "yPct": 61.9,
+      "image": "station-43.png"
+    },
+    {
+      "id": "44",
+      "name": "Station 44",
+      "xPct": 87.0,
+      "yPct": 56.2,
+      "image": "station-44.png"
+    },
+    {
+      "id": "45",
+      "name": "Station 45",
+      "xPct": 84.5,
+      "yPct": 53.0,
+      "image": "station-45.png"
+    },
+    {
+      "id": "46",
+      "name": "Station 46",
+      "xPct": 82.5,
+      "yPct": 50.5,
+      "image": "station-46.png"
+    },
+    {
+      "id": "47",
+      "name": "Station 47",
+      "xPct": 79.5,
+      "yPct": 46.6,
+      "image": "station-47.png"
+    },
+    {
+      "id": "48",
+      "name": "Station 48",
+      "xPct": 75.5,
+      "yPct": 46.5,
+      "image": "station-48.png"
+    },
+    {
+      "id": "49",
+      "name": "Station 49",
+      "xPct": 76.3,
+      "yPct": 39.0,
+      "image": "station-49.png"
+    },
+    {
+      "id": "50",
+      "name": "Station 50",
+      "xPct": 79.5,
+      "yPct": 34.5,
+      "image": "station-50.png"
+    },
+    {
+      "id": "51",
+      "name": "Station 51",
+      "xPct": 83.9,
+      "yPct": 41.5,
+      "image": "station-51.png"
+    },
+    {
+      "id": "52",
+      "name": "Station 52",
+      "xPct": 89.0,
+      "yPct": 48.0,
+      "image": "station-52.png"
+    },
+    {
+      "id": "53",
+      "name": "Station 53",
+      "xPct": 91.5,
+      "yPct": 51.5,
+      "image": "station-53.png"
+    },
+    {
+      "id": "54",
+      "name": "Station 54",
+      "xPct": 93.5,
+      "yPct": 47.5,
+      "image": "station-54.png"
+    },
+    {
+      "id": "55",
+      "name": "Station 55",
+      "xPct": 86.7,
+      "yPct": 39.3,
+      "image": "station-55.png"
+    },
+    {
+      "id": "56",
+      "name": "Station 56",
+      "xPct": 83.7,
+      "yPct": 34.5,
+      "image": "station-56.png"
+    },
+    {
+      "id": "57",
+      "name": "Station 57",
+      "xPct": 73.6,
+      "yPct": 31.0,
+      "image": "station-57.png"
+    }
+  ]
+}

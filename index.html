@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dow RunWalk Volunteer Station Map — Greater Midland 2026</title>
+  <meta name="description" content="Interactive volunteer station map for the 2026 Greater Midland Dow RunWalk. Hover or tap a station to view setup instructions.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Greater Midland Dow RunWalk</h1>
+      <p class="site-subtitle">Volunteer Station Map &mdash; 2026</p>
+    </div>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main class="main-content">
+
+    <p class="instructions">
+      <strong>Instructions:</strong>
+      <span class="instructions-desktop">Hover over a numbered station to view setup instructions.</span>
+      <span class="instructions-mobile">Tap a numbered station to view setup instructions.</span>
+    </p>
+
+    <!-- Map Container -->
+    <div class="map-container" id="mapContainer">
+      <img
+        src="images/race-map.png"
+        alt="2026 Greater Midland Dow RunWalk race course map with numbered volunteer stations"
+        class="race-map-img"
+        id="raceMapImg"
+        width="2000"
+        height="1545"
+      >
+      <!-- Markers are injected here by JS -->
+
+      <!-- Desktop Tooltip (shared, repositioned per marker) -->
+      <div class="tooltip" id="tooltip" role="tooltip" aria-hidden="true">
+        <div class="tooltip-arrow" id="tooltipArrow"></div>
+        <div class="tooltip-header" id="tooltipHeader"></div>
+        <div class="tooltip-body" id="tooltipBody">
+          <div class="tooltip-spinner" id="tooltipSpinner">
+            <div class="spinner"></div>
+            <span>Loading instructions&hellip;</span>
+          </div>
+          <img class="tooltip-img" id="tooltipImg" src="" alt="" style="display:none;">
+          <p class="tooltip-fallback" id="tooltipFallback" style="display:none;">
+            Setup instructions not yet available for this station.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Modal -->
+    <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+      <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body" id="modalBody">
+          <div class="modal-spinner" id="modalSpinner">
+            <div class="spinner"></div>
+            <span>Loading instructions&hellip;</span>
+          </div>
+          <img class="modal-img" id="modalImg" src="" alt="" style="display:none;">
+          <p class="modal-fallback" id="modalFallback" style="display:none;">
+            Setup instructions not yet available for this station.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Greater Midland. All rights reserved.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
