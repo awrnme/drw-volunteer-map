@@ -238,8 +238,11 @@
     const name  = btn.dataset.stationName;
     const image = btn.dataset.stationImage;
 
-    // Title
+    // Title + download link
     modalTitle.textContent = `Station ${id} — ${name}`;
+    modalDownload.href = 'images/stations/' + image;
+    modalDownload.setAttribute('download', image);
+    modalDownload.setAttribute('aria-label', `Download setup instructions for Station ${id}`);
 
     // Reset body
     modalImg.style.display      = 'none';
