@@ -187,6 +187,39 @@ img {
 }
 
 /* ============================================================
+   Download Button (shared tooltip + modal)
+   ============================================================ */
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  color: var(--color-primary);
+  background: transparent;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: background-color var(--transition-speed) ease,
+              color var(--transition-speed) ease;
+}
+
+.btn-download:hover {
+  background-color: var(--color-primary);
+  color: var(--color-bg-white);
+}
+
+.btn-download:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.btn-download i {
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* ============================================================
    Desktop Tooltip
    ============================================================ */
 .tooltip {
@@ -218,6 +251,15 @@ img {
   border-bottom: 3px solid var(--color-primary);
   border-radius: var(--tooltip-radius) var(--tooltip-radius) 0 0;
   background-color: #F0F6FC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.tooltip-title {
+  flex: 1;
+  min-width: 0;
 }
 
 .tooltip-body {
@@ -412,6 +454,13 @@ img {
   width: 100%;
   height: auto;
   border-radius: 4px;
+}
+
+.modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
 }
 
 /* Hide modal trigger on desktop (modals are mobile-only) */
