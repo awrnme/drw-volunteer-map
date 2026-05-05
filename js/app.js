@@ -18,6 +18,8 @@
   const tooltipSpinner = document.getElementById('tooltipSpinner');
   const tooltipImg     = document.getElementById('tooltipImg');
   const tooltipFallback = document.getElementById('tooltipFallback');
+  const tooltipTitle   = document.getElementById('tooltipTitle');
+  const tooltipDownload = document.getElementById('tooltipDownload');
 
   // Mobile modal
   const modalOverlay   = document.getElementById('modalOverlay');
@@ -28,6 +30,7 @@
   const modalSpinner   = document.getElementById('modalSpinner');
   const modalImg       = document.getElementById('modalImg');
   const modalFallback  = document.getElementById('modalFallback');
+  const modalDownload  = document.getElementById('modalDownload');
 
   // ── State ───────────────────────────────────────────────
   const imageCache = {};          // cached Image objects keyed by station id
@@ -132,8 +135,11 @@
     const image = btn.dataset.stationImage;
 
     // Header
-    tooltipHeader.textContent = `Station ${id} — ${name}`;
-
+    tooltipTitle.textContent = `Station ${id} — ${name}`;
+    tooltipDownload.href = 'images/stations/' + image;
+    tooltipDownload.setAttribute('download', image);
+    tooltipDownload.setAttribute('aria-label', `Download setup instructions for Station ${id}`);
+     
     // Reset body
     tooltipImg.style.display     = 'none';
     tooltipFallback.style.display = 'none';
