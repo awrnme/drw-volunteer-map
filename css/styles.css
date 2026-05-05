@@ -71,23 +71,62 @@ img {
 .site-header {
   background-color: var(--color-primary);
   color: var(--color-bg-white);
-  padding: 20px 24px;
-  text-align: center;
+  padding: 12px 24px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  flex-shrink: 0;
+}
+
+.header-logo-img {
+  height: 60px;
+  width: auto;
+  display: block;
+}
+
+.header-text {
+  min-width: 0;
 }
 
 .site-title {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: 0.02em;
-  margin-bottom: 2px;
+  line-height: 1.2;
 }
 
 .site-subtitle {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   opacity: 0.85;
+  margin-top: 2px;
 }
 
+@media (max-width: 767px) {
+   .header-inner {
+     gap: 14px;
+   }
+
+   .header-logo-img {
+     height: 48px;
+   }
+
+   .site-title {
+     font-size: 0.8rem;
+   }
+
+   .site-subtitle {
+      font-size: 0.8rem;
+   }
+}
 /* ============================================================
    Main Content
    ============================================================ */
